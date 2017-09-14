@@ -11,7 +11,9 @@
 
 5. I did not see any issues from my fellow classmates that I would be able to help with.
 
-I wasn't sure how to add the rest of the criteria within my report so here is some useless information that I made so I can practice using markup. 
+I wasn't sure how to add the rest of the criteria within my report so here is some useless information that I made so I can practice using markup.
+
+![Image of my editor](capture.png
 
 These are my most frequented websites:
 - [Amazon](http://www.amazon.com)
@@ -29,4 +31,4 @@ These are my most frequented websites:
   -Sometimes called Frenchies
 #It is my dream some day to have all of these types of dogs but for now I only have a Pit Bull.```
 
-![Image of my editor](capture.png)
+)
