@@ -9,11 +9,11 @@
 
 4. There isn't anything in particular that I want to discuss further for this week.
 
-5. I did not see any issues from my fellow classmates that I would be able to help with.
-
-I wasn't sure how to add the rest of the criteria within my report so here is some useless information that I made so I can practice using markup.
+5. I did not see any issues from my fellow classmates that I would be able to help with.=
 
 ![Image of my editor](Capture.PNG)
+
+I wasn't sure how to add the rest of the criteria within my report so here is some useless information that I made so I can practice using markup.
 
 These are my most frequented websites:
 - [Amazon](http://www.amazon.com)
@@ -26,7 +26,7 @@ These are my most frequented websites:
 1. American Pit Bull Terrier
   - Or you could call it just a Pit Bull. Or a Pittie.
 2. Bull Terriers
-  -The target dog
+  -The Target dog
 3. French Bulldogs
   -Sometimes called Frenchies
 #It is my dream some day to have all of these types of dogs but for now I only have a Pit Bull.```
