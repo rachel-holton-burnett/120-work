@@ -13,7 +13,7 @@
 
 I wasn't sure how to add the rest of the criteria within my report so here is some useless information that I made so I can practice using markup.
 
-![Image of my editor](capture.PNG)
+![Image of my editor](Capture.PNG)
 
 These are my most frequented websites:
 - [Amazon](http://www.amazon.com)
