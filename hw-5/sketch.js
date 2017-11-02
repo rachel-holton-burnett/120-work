@@ -2,6 +2,7 @@ function setup() {
     // create a canvas
     createCanvas( 1800,900);
 frameRate ( 25 );
+
 }
 
 //variables for stars
@@ -23,6 +24,11 @@ function draw() {
     background( 'rgb(5, 41, 64)' );
     // turn the cursor off
     noCursor();
+
+if (frameCount % 9 === 5 ) {
+  posX = 345;
+  posY= 10;
+}
 
 push();
 
