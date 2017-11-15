@@ -1,12 +1,4 @@
-let starSize = {
-  starWidth1: [25],
-  starHeight1: [25],
-  starWidth2: [15],
-  starHeight2: [15],
-  starWidth3: [5],
-  starHeight3: [5]
-
-};
+var starSize = [25,15,5];
 
 function setup() {
     // create a canvas
@@ -39,17 +31,7 @@ push();
 
 fill (starFill);
 noStroke();
-ellipse ( 85, 85, starSize.starWidth2, starSize.starHeight3 );
-
-
-fill (starFill2) ;
-noStroke();
-ellipse ( 50, 50, starSize.starWidth1, starSize.starHeight1 );
-
-
-fill (starFill);
-noStroke();
-ellipse ( 25, 25, starSize.starWidth1, starSize.starHeight2 );
+ellipse ( 85, 85, starSize [0], starSize [1] );
 
 
 
