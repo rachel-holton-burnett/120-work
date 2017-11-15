@@ -23,19 +23,24 @@ function draw() {
     movingStars(75,250,1,2);
     movingStars(-75,150,1,2);
     movingStars(500,50,1,2);
-    movingStars(-875,150,1,2);
-
-push();
-
-//stars sandbox
-
-fill (starFill);
-noStroke();
-ellipse ( 85, 85, starSize [0], starSize [1] );
-
-
-
-
+    movingStars(-800,150,1,2);
+    stillStars(-400,60,1,2);
+    stillStars(620,90,1,2);
+    stillStars(770,55,1,2);
+    stillStars(65,400,1,2);
+    stillStars(685,-285,1,2);
+    stillStars(360,-360,1,2);
+    stillStars(55,-160,1,2);
+    stillStars(225,-160,1,2);
+    stillStars(-741,-232,1,2);
+    stillStars(1100,190,1,2);
+    stillStars(-1070,-555,1,2);
+    stillStars(-865,-40,1,2);
+    stillStars(-685,1285,1,2);
+    stillStars(-360,1360,1,2);
+    stillStars(855,560,1,2);
+    stillStars(805,360,1,2);
+    stillStars(550,232,1,2);
 
 //moon
 push();
@@ -133,11 +138,6 @@ translate (0,10);
 triangle (-20, -65, -48, -10, -75, -65);
 
 pop();
-pop();
-
-
-
-
 
   }
 
@@ -155,7 +155,36 @@ pop();
 
 pop();
 
-
-
-
   }
+
+  function stillStars(x,y,w,h) {
+    push();
+    translate(x,y);
+    scale(w,h);
+
+    fill (starFill);
+    noStroke();
+    ellipse ( 85, 85, starSize [0], starSize [1] );
+
+    fill (starFill2);
+    noStroke();
+    ellipse ( -250, 100, starSize [1], starSize [1] );
+
+    fill (starFill);
+    noStroke();
+    ellipse ( 65, 105, starSize [0], starSize [2] );
+
+    fill (starFill2);
+    noStroke();
+    ellipse ( 385, -45, starSize [2], starSize [2] );
+
+    fill (starFill);
+    noStroke();
+    ellipse ( 65, 150, starSize [1], starSize [2] );
+
+    fill (starFill2);
+    noStroke();
+    ellipse ( 75, 195, starSize [0], starSize [0] );
+
+pop();
+}
